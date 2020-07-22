@@ -1,0 +1,117 @@
+body{
+  text-align: center;
+  padding: 10px;
+}
+.Epam{
+  width: 300px;
+  text-align: center;
+  background-color: turquoise;
+  color: white;
+  margin: auto;
+  margin-top: 150px ;
+}
+.form_body{
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+.form{
+  padding: 10px;
+}
+.email{
+  width: 100%;
+  height: 20px;
+}
+.password{
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+.button1{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+  border: transparent;
+  background-color: turquoise;
+  color: white;
+  margin-top: 15px;
+}
+.button1:hover{
+  cursor: pointer;
+  background: coral;
+  color: white;
+}
+.a1{
+  text-decoration: none;
+  font-size: 15px;
+  color:darkgrey;
+  line-height: 20px;
+}
+.a2{
+  text-decoration: none;
+  color: darkgray;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.vl {
+  position: absolute;
+  border: 2px solid #ddd;
+  width: 300px;
+}
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+
+#facebook{
+  top: 30px;
+  width: 100%;
+  height: 30px;
+  border: transparent;
+  color: white;
+  background-color: #32508E;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+#gplus{
+  width: 100%;
+  height: 30px;
+  border: transparent;
+  color: white;
+  background-color: #DD4B39;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+#epm_log{
+  width: 100%;
+  height: 30px;
+  border: transparent;
+  color: white;
+  background-color: rgb(102, 199, 5);
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
